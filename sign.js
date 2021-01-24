@@ -3,7 +3,8 @@ const SHA256 = require('crypto-js/sha256');
 
 const ec = new EC('secp256k1');
 
-const privateKey = 'a62a36fdeebbe9befdbeb3111d526c9aa2fbb048e1601330e71b65659d3a31b8';
+// TODO: insert private key here
+const privateKey = '';
 
 const key = ec.keyFromPrivate(privateKey);
 
